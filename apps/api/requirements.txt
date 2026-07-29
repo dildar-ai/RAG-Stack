@@ -1,0 +1,11 @@
+fastapi
+uvicorn
+pydantic
+qdrant-client
+supabase
+langchain
+langchain-groq
+sentence-transformers
+pymupdf
+python-multipart
+python-dotenv
