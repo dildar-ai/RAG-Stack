@@ -1,0 +1,7 @@
+# --- Build stage dependencies / caches excluded from the build context ---
+venv/
+__pycache__/
+*.pyc
+.env
+.env.*
+!.env.example

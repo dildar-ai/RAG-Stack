@@ -12,6 +12,21 @@ node_modules
 .env.test.local
 .env.production.local
 
+# Python
+__pycache__/
+*.py[cod]
+venv/
+.venv/
+env/
+*.egg-info/
+
+# Runtime artifacts from PDF ingestion
+apps/api/temp_*.pdf
+apps/api/temp_*
+
+# Local scratch/clones
+.turbo-clone-temp/
+
 # Testing
 coverage
 
